@@ -66,6 +66,10 @@ Giả lập DriveApp, SpreadsheetApp và trigger trong Node (không cần tài k
 | `test/simulate.js` | Bài test giả lập |
 | `docs/cover.jpg` | Ảnh bìa |
 
+## Giấy phép
+
+[MIT](LICENSE): dùng, sửa, chia sẻ, dùng thương mại thoải mái, chỉ cần giữ thông báo bản quyền.
+
 ---
 
 ## English
@@ -80,3 +84,5 @@ Copy a folder tree from one Google Drive account to another with Google Apps Scr
 Limits: 6 min per execution, 90 min/day of trigger runtime on consumer accounts (6 h on Workspace), 750 GB of uploads + copies per user per 24 h. Copies belong to the new account; originals are not deleted. Files whose owner disabled download/copy, Google Sites and My Maps cannot be copied; shortcuts are skipped. Comments, version history and old sharing do not carry over.
 
 Test: `node test/simulate.js` runs the script against mocked Drive/Sheets/triggers (320 files, 3 levels) and checks resume, identical tree and no duplicate copies.
+
+License: [MIT](LICENSE).

@@ -8,7 +8,7 @@
  *
  * Cài: tạo Google Sheet mới trên tài khoản đích → Tiện ích mở rộng → Apps Script → dán toàn bộ file này → Lưu
  *      → tải lại Sheet → menu "Chuyển Drive" → "Bắt đầu chuyển…".
- * Mã nguồn: https://github.com/thecoolestmarperindawurl/drive-transfer
+ * Mã nguồn: https://github.com/thecoolestmarperindawurl/drive-transfer · Giấy phép MIT
  */
 
 const BUDGET_MS = 4.5 * 60 * 1000;     // dừng sớm trước giới hạn 6 phút/lượt của Apps Script
